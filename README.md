@@ -162,7 +162,7 @@ $ docker exec minio mc admin info local
 or using Docker Compose:
 
 ```console
-$ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-minio/master/docker-compose.yml > docker-compose.yml
+$ curl -sSL https://raw.githubusercontent.com/drycc-addons/drycc-docker-minio/main/docker-compose.yml > docker-compose.yml
 $ docker-compose up -d
 $ docker-compose exec minio mc admin info local
 ```
